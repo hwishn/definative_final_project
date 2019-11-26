@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Canvas"
+        android:layout_width="match_parent"
+        android:layout_height="463dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pencil_btn"
+            android:layout_width="121dp"
+            android:layout_height="83dp"
+            android:text="Pencil" />
+
+        <Button
+            android:id="@+id/color_btn"
+            android:layout_width="146dp"
+            android:layout_height="83dp"
+            android:text="Color" />
+
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_width="141dp"
+            android:layout_height="83dp"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+</LinearLayout>
