@@ -1,21 +1,17 @@
 package com.example.finalprojectcs125;
 
 import android.os.Bundle;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.drawing_board);
+        setContentView(R.layout.home_screen);
+        Button start = findViewById(R.id.start_btn);
+        start.setOnClickListener(unused -> System.out.println("start button was pressed"));
     }
 
 }
