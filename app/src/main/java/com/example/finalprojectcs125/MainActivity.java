@@ -1,5 +1,6 @@
 package com.example.finalprojectcs125;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_screen);
         Button start = findViewById(R.id.start_btn);
-        start.setOnClickListener(unused -> System.out.println("start button was pressed"));
+        start.setOnClickListener(unused -> {
+            Intent intent = new Intent(this, DrawingBoard.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
 }
