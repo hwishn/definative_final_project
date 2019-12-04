@@ -1,47 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/red_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
         android:layout_weight="1"
+        android:backgroundTint="#F44336"
         android:text="Red" />
 
     <Button
         android:id="@+id/yellow_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
         android:layout_weight="1"
+        android:backgroundTint="#FFEB3B"
         android:text="Yellow" />
 
     <Button
         android:id="@+id/green_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="307dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="#4CAF50"
         android:text="Green" />
 
     <Button
         android:id="@+id/orange_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="#FF9800"
         android:text="Orange" />
 
     <Button
         android:id="@+id/blue_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="302dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="#2196F3"
         android:text="Blue" />
 
     <Button
         android:id="@+id/purple_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="297dp"
+        android:layout_height="87dp"
         android:layout_weight="1"
+        android:backgroundTint="#9C27B0"
         android:text="Purple" />
 </LinearLayout>

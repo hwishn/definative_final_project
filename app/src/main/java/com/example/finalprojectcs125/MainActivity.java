@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.home_screen);
         Button start = findViewById(R.id.start_btn);
         start.setOnClickListener(unused -> {
+            System.out.println("changing screens");
             Intent intent = new Intent(this, DrawingBoard.class);
             startActivity(intent);
-            finish();
         });
     }
 

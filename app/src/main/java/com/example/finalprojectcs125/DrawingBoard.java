@@ -26,7 +26,8 @@ public class DrawingBoard extends AppCompatActivity {
         ImageView canvas = findViewById(R.id.Canvas);
         canvas.setOnTouchListener(new View.OnTouchListener() {
             public boolean onTouch(View v, MotionEvent event) {
-                //to implement laster
+                System.out.println("Canvas was touched");
+                //to implement later
                 return true;
             }
         });
