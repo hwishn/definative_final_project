@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.nio.file.Path;
+
 public class DrawingBoard extends AppCompatActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,14 +25,15 @@ public class DrawingBoard extends AppCompatActivity {
             finish();
         });
         clear.setOnClickListener(u -> System.out.println("clear button was clicked"));
-        ImageView canvas = findViewById(R.id.Canvas);
-        canvas.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                System.out.println("Canvas was touched");
-                //to implement later
-                return true;
-            }
-        });
-
+    }
+    static class FingerPath {
+        int color;
+        int strokeWidth;
+        Path path;
+        public FingerPath(int num, int width, Path path) {
+            color = num;
+            strokeWidth = width;
+            this.path = path;
+        }
     }
 }
