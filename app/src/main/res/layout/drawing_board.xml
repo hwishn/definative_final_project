@@ -9,18 +9,11 @@
     <com.example.finalprojectcs125.PaintView
         android:id="@+id/paintView"
         android:layout_width="match_parent"
-        android:layout_height="552dp" />
+        android:layout_height="543dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <FrameLayout
-            android:layout_width="303dp"
-            android:layout_height="match_parent"
-            android:layout_weight="9">
-
-        </FrameLayout>
 
         <Button
             android:id="@+id/pencil_btn"

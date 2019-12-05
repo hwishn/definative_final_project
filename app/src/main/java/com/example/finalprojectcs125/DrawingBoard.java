@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.nio.file.Path;
+import android.graphics.Path;
 
 public class DrawingBoard extends AppCompatActivity {
     protected void onCreate(final Bundle savedInstanceState) {
@@ -30,10 +30,10 @@ public class DrawingBoard extends AppCompatActivity {
         int color;
         int strokeWidth;
         Path path;
-        public FingerPath(int num, int width, Path path) {
+        public FingerPath(int num, int width, Path input) {
             color = num;
             strokeWidth = width;
-            this.path = path;
+            path = input;
         }
     }
 }
