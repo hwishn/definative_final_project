@@ -37,16 +37,15 @@ public class DrawingBoard extends AppCompatActivity {
             drawer.setColor(Color.YELLOW);
         });
         purple.setOnClickListener(u -> {
-            drawer.setColor(Color.rgb(238,130,238));
+            drawer.setColor(Color.rgb(238, 130, 238));
         });
         orange.setOnClickListener(u -> {
-            drawer.setColor(Color.rgb(255,165,0));
+            drawer.setColor(Color.rgb(255, 165, 0));
         });
 
         Button clear = findViewById(R.id.clear_btn);
-        clear.setOnClickListener(u -> System.out.println("clear button was clicked"));
+        clear.setOnClickListener(u -> drawer.clearCanvas());
     }
-
     static class FingerPath {
         int color;
         int strokeWidth;

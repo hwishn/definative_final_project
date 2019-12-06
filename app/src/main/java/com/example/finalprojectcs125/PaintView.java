@@ -1,6 +1,7 @@
 package com.example.finalprojectcs125;
 
 import android.content.Context;
+import android.graphics.PorterDuff;
 import android.util.AttributeSet;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -69,5 +70,10 @@ public class PaintView  extends View {
 
     public void setColor(int num) {
         mPaint.setColor(num);
+    }
+
+    public void clearCanvas() {
+        mCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
+        invalidate();
     }
 }
