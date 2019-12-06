@@ -7,32 +7,74 @@
 
 
     <com.example.finalprojectcs125.PaintView
-        android:id="@+id/paintView"
+        android:id="@+id/drawing_thing"
         android:layout_width="match_parent"
-        android:layout_height="543dp" />
+        android:layout_height="455dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="73dp">
 
         <Button
-            android:id="@+id/pencil_btn"
-            android:layout_width="121dp"
-            android:layout_height="83dp"
-            android:text="Pencil" />
+            android:id="@+id/red_btn2"
+            android:layout_width="312dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="Red" />
 
         <Button
-            android:id="@+id/color_btn"
-            android:layout_width="146dp"
-            android:layout_height="83dp"
-            android:text="Color" />
+            android:id="@+id/yellow_btn2"
+            android:layout_width="312dp"
+            android:layout_height="62dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:text="Yellow" />
+
+        <Button
+            android:id="@+id/green_btn2"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="Green" />
 
         <Button
             android:id="@+id/clear_btn"
-            android:layout_width="141dp"
-            android:layout_height="83dp"
+            android:layout_width="122dp"
+            android:layout_height="61dp"
             android:text="Clear" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/orange_btn2"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="Orange" />
+
+        <Button
+            android:id="@+id/blue_btn2"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/purple_btn2"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#9C27B0"
+            android:text="Purple" />
     </LinearLayout>
 
 </LinearLayout>

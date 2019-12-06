@@ -66,4 +66,8 @@ public class PaintView  extends View {
         invalidate();
         return true;
     }
+
+    public void setColor(int num) {
+        mPaint.setColor(num);
+    }
 }
