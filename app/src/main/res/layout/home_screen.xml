@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="492dp"
         android:background="#673AB7"
-        app:srcCompat="@drawable/final_project_home_screen" />
+        app:srcCompat="@drawable/image" />
 
     <Button
         android:id="@+id/start_btn"
